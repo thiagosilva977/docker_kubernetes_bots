@@ -1,3 +1,9 @@
+import sys
+import json
+with open('config/config.json','r') as myfile:
+    CONFIG = json.load(myfile)
+sys.path.append(CONFIG['main_path'])
+
 
 import common.essentials_functions as common_functions
 
