@@ -1,3 +1,9 @@
+import sys
+import json
+with open('config/config.json','r') as myfile:
+    CONFIG = json.load(myfile)
+sys.path.append(CONFIG['main_path'])
+
 
 import common.essentials_functions as common_functions
 
@@ -11,4 +17,6 @@ if __name__ == '__main__':
     print(final_result)
     print(final_result)
     print(final_result)
+    print('outro teste')
+    print('teste de push')
     print('-------- END ---------')
