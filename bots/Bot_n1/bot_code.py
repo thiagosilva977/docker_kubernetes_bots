@@ -11,4 +11,6 @@ if __name__ == '__main__':
     print(final_result)
     print(final_result)
     print(final_result)
+    print('outro teste')
+    print('teste de push')
     print('-------- END ---------')
